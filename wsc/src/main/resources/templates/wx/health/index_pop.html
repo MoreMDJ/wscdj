@@ -1,0 +1,51 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Language" content="zh-CN">
+<title>首页弹窗</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="copyright" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+    <!-- css -->
+    <link href="wx/css/coupon.css" rel="stylesheet" type="text/css" />
+    <link href="wx/css/common_coupon.css" rel="stylesheet" type="text/css" />
+    <!-- js -->
+    <script type="text/javascript" src="wx/js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="wx/js/common.js"></script>
+
+</head>
+<body>
+
+
+<a href="#" title="" class="index_pop2"  onclick="$('.index_pop').fadeIn(200)">点我弹窗</a>
+	<!-- index_pop -->
+    <div class="index_pop">
+      <div class="con">
+       	<a class="con_ok" href="#" title=""><img src="wx/images/coupon/index_pop.png"></a>
+      </div>
+      
+      <div class="con2">
+      	<a class="con_close" href="javascript:void(0);" onclick="$(this).parent().parent().fadeOut(200);" title=""></a>
+      </div>
+      
+    </div>
+    
+    <script type="text/javascript">
+      $(".index_pop2").click(function(){
+        $(this).addClass("sel").siblings().removeClass("sel");
+      })
+    </script>
+    <!-- index_pop END -->
+
+
+
+
+
+
+</body>
+</html>

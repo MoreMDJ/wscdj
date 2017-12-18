@@ -1,0 +1,1 @@
+<script type="text/javascript">parent.jsdialog("错误提示", "您没有管理该页面的权限，请勿非法进入！", "back")</script>

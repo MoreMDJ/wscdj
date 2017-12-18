@@ -1,0 +1,396 @@
+@charset "UTF-8";
+/******************** 个人中心 ***********************/
+/************首页************/
+.center_top{height: 2.24rem; background: url(../../wx/images/center_bg.png) no-repeat;background-size: 100% 100%;float: left;}
+.center_top .center_top_news{height: .38rem;margin-top: .3rem;}
+.center_top .center_top_news a{ display: block; width: .39rem;height: .38rem; background: url(../../wx/images/more1.png) no-repeat top right; background-size: .39rem .38rem;
+  float: right;margin-right: .3rem;}
+.center_top .center_top_news i{width: .1rem;height: .1rem;border-radius: .1rem;background:#ff0000;display: block;position: absolute; right:.3rem;}
+
+.center_top .center_top_box{margin: 0 .3rem .3rem .3rem;color: #fff;}
+.center_top .center_top_box dl dt{border:.06rem #7078b7 solid;width: 1.26rem; height: 1.26rem;border-radius: .66rem;overflow: hidden;float: left;}
+
+.center_top .center_top_box dl dd{float: left;margin-left: .2rem;}
+.center_top .center_top_box dl dd p{margin-top: .25rem;font-size: .24rem; font-weight: 600;}
+.center_top .center_top_box dl dd span{background: #f9b047;font-size:.18rem; color:#5e439b;padding:.01rem .09rem;float: left;border-radius: .15rem;margin-top: .2rem;}
+.center_top .center_top_box dl dd a{font-size: .18rem;color: #fff;float: right;}
+.center_top .center_top_box .center_top_box_dd2{ float: right;margin-top:.5rem;}
+/*首页订单开始*/
+.center_order{background: #fff;}
+.center_order .center_order1 dl{float: left;width: 24%;margin:.3rem 0; }
+.center_order .center_order1 dl dt{text-align: center;}
+.center_order .center_order1 dl dt img{width:.42rem;height: .42rem; }
+.center_order .center_order1 dl dd{text-align: center;margin-top: .12rem;}
+.center_order .center_order1 .center_order1_hint{width: .14rem;height: .14rem;border-radius: .7rem;background: #5e439b;position: absolute;  top:-.18rem;right:.48rem;}
+.center_order .center_order1 span{  border-left: .025rem #ebebeb solid;float: left;  width: 1%;  height: 1.5rem;}
+.center_order .center_order3_dl3{padding-top: .03rem;}
+.center_order .center_order3_dd3{padding-top: .15rem;}
+
+.center_order .center_order4{border-top: .025rem #ebebeb solid;}
+.center_order .center_order4 span{  border-left: .025rem #fff solid;float: left;  width: 1%;  height: 1.5rem;}
+
+.center_ad{width: 100%;height:1.3rem; }
+.center_ad img{width: 100%;height: 100%;}
+
+.center_esc{ width: 100%; height: .76rem;background: #e6e6e6;text-align: center;line-height: .76rem;color: #999999;}
+
+/************基本资料/新增地址************/
+/*一列一列信息盒子*/
+.center_infobox{padding:0 .2rem; background: #fff;display: block;overflow: hidden;}
+.center_infobox dl{width: 100%;border-top: .025rem #ebebeb solid;  float: left;line-height: .9rem;}
+.center_infobox dl:first-child{border-top:none;}
+.center_infobox dl dt{float: left;}
+.center_infobox dl dd{float: right;background: url(../../wx/images/rightmore2.png) no-repeat right;background-size:.12rem .22rem;padding-right: .3rem;text-align: right;font-size: .22rem;color: #777;}
+.center_infobox .center_infobox_nomore{background: none;}
+/*右边没有箭头更多*/
+.center_infobox .center_infobox_pic span{width: .85rem;height: .85rem;overflow: hidden; border-radius: .42rem;display: block;float: left; margin:.1rem 0 ;}
+.center_infobox .center_infobox_pic input{position: absolute;width: 2.4rem;height: 0.5rem;right: 0;top: .3rem;opacity: 0;}
+.center_infobox dl dd img{width: 100%;height: 100%;}
+/*文本框样式*/
+.center_infobox .center_infobox_text{font-size: .22rem; text-align: right;height: .8rem;  color: #777;width: 4rem;}
+.center_infobox .center_infobox_text::-webkit-input-placeholder {  color: #777;}
+.center_infobox .center_infobox_select{ color: #777;font-size: .22rem;height: .8rem;padding-left: 2rem;}
+.footer_sub{width: 100%;height: .8rem; background: #5e439b;color: #fff;position:fixed;bottom: 0;left: 0;}
+
+
+/************地址管理************/
+.address_bg{background: url(../../wx/images/address_bg.png);width: 100%;height:.04rem;display: block;}
+.address_list{padding: .3rem .3rem 0 .3rem;background: #fff;float: left;}
+.address_list dt{width: 100%;  float: left;}
+.address_list dt span{margin-right: .5rem;}
+.address_list dd{margin-top: .2rem;font-size: .22rem;color: #999999;padding-bottom: .2rem; border-bottom:.025rem #ebebeb solid;width: 100%;  float: left;}
+.address_list dd:last-child{border-bottom:none;color: #444;}
+.address_list dd i{width:.26rem;height: .26rem;border-radius: .14rem;border:.025rem #888 solid;display: block;float: left;margin-right: .1rem;}
+.address_list dd a{float: right;margin-left: .6rem;}
+.address_list dd a img{width: .22rem;height: .26rem;    position: absolute;  top: .02rem;  left: -.3rem;}
+.address_list .address_choiced{background: #5e439b;border: none;}
+
+
+/************评论************/
+.center_comment{background: #f9f9f9;width: 100%;display: block;overflow: hidden;}
+.center_comment dl{padding: .3rem;float: left;width: 100%;}
+.center_comment dl dt{width:1.3rem;height:1.3rem;float: left;}
+.center_comment dl dt img{width: 100%;height: 100%;}
+.center_comment dl dd{float: left;width: 70%;}
+.center_comment dl dd textarea{background:#f9f9f9;margin-left: .2rem;width: 100%;height: 1.3rem;display: block;overflow: hidden;}
+.center_comment_pic{  float: left;}
+.center_comment_pic li{width: 1.2rem;height: 1.2rem;border: .02rem #ebebeb solid;margin-left: .3rem; background: url(../../wx/images/comment_p.png) no-repeat;
+  background-size:.63rem .49rem;background-position:center center;float: left;margin-bottom: .2rem;}
+.center_comment_pic li input{width: 1.2rem;height: 1.2rem;opacity: 0;}
+.center_comment_start{width: 96%;background: #fff;padding: .25rem 3%;}
+.center_comment_start span{margin-top: -.02rem;  display: block;  float: right;}
+.center_comment_start span img{width:.36rem;height: .34rem;margin-left: .2rem; }
+
+
+/***************************三级分销********************************/
+/************我的钱包************/
+.purse_a{width: 49%;  float: left;margin-top: .3rem;}
+.purse_a dl{text-align: center;color: #fff;}
+.purse_a dl dd{font-size: .48rem;margin-top: .2rem;}
+.purse_withdraw{padding:.05rem .2rem;border: .025rem #5b2d90 solid; display: block;  float: left;margin-left: 43%;margin-top:.25rem; color: #fff;border-radius: .05rem;}
+.purse_list dl{width:100%;  float: left;display: block;overflow: hidden;}
+.purse_list dl dt{text-align: center;font-size: .2rem; padding: .2rem 0;color: #999999;}
+.purse_list dl dd{background:#fff;border-bottom:.025rem #ebebeb solid;padding:.2rem 0;display: block;overflow: hidden;}
+.purse_list dl dd span{width: 68%;display: block;overflow: hidden;float: left;padding-left: 2%;color: #777777;}
+.purse_list dl dd label{width: 28%;float: right;padding-right: 2%;text-align: right;}
+.purse_list dl dd .purse_list_add{color: #5e439b;}
+.purse_list dl dd:last-child{border-bottom: none;}
+
+/*我的分销*/
+.three_infobox{padding:0 .2rem; background: #fff;display: block;overflow: hidden;}
+.three_infobox a{width: 100%;border-bottom: .025rem #ebebeb solid;  float: left;line-height: .9rem;background: url(../../wx/images/rightmore2.png) no-repeat right;background-size:.12rem .22rem;}
+.three_infobox p{margin: .2rem 0;float: left;width: 100%;}
+.three_infobox span{width: 100%;display: block;overflow:hidden;/*margin: .2rem 0 .2rem 15%;*/}
+.three_infobox span img{width:100%;height:100%;}
+
+/***************************三级分销*end*******************************/
+
+
+
+
+
+
+/************申请提现************/
+.application_box{width: 100%;background: #fff;display: block;overflow: hidden;}
+.application_box p{padding: .28rem .2rem;}
+.application_box p label{font-size: .18rem;float: right;color: #999999;}
+.application_box b{font-size: .34rem;padding: .1rem .2rem;  float: left;}
+.application_box b input{width: 5.6rem;text-align: right;}
+.application_point{width: 80%;margin:.2rem auto; text-align: center;color: #999;font-size: .18rem;}
+/************意见反馈************/
+.opinion_1{background: #fff; padding: .2rem;color: #777;}
+.opinion_1 a{color: #5e439b;text-decoration: blink;text-decoration: underline;}
+.opinion_1 textarea{width: 100%;height: 1.9rem;margin-top: .2rem;}
+.opinion_1 input{width: 70%;float: right;text-align: right;}
+
+
+
+/************我的收藏************/
+.collection_box > ul {
+  overflow: hidden;
+  padding-bottom: .2rem;
+  width: 100%;
+}
+.collection_box > ul li {
+  overflow: hidden;
+  width: 7.4rem;
+  border-bottom: .025rem #ebebeb solid;
+}
+.collection_box > ul li a {
+  display: block;
+  float: left;
+  overflow: hidden;
+  padding: .2rem .3rem;
+  width: 5.8rem;
+  box-sizing:border-box;
+  background: #fff;
+}
+.collection_box > ul li a img {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+.collection_box > ul li a .sec1 {
+  padding: 0 .2rem;
+  width: 4.5rem;
+  box-sizing: border-box;
+}
+.collection_box > ul li a .sec1 p {
+  overflow: hidden;
+  width: 100%;
+
+
+}
+.collection_box > ul li a .sec1 .p1 {
+  color: #333;
+  margin-top: .1rem;
+}
+.collection_box > ul li a .sec1 .p2 {
+  color: #999;
+  margin-top: .3rem;
+}
+/*.collection_box > ul li a .sec2 {*/
+  /*width: .9rem;*/
+  /*text-align: right;*/
+  /*font-size: .22rem;*/
+  /*color: #999;*/
+/*}*/
+.collection_box > ul li menu {
+  float: left;
+  width: .9rem;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  text-align: center;
+  color: #fff;
+  background:#5e439b;
+}
+/************我的收藏 end************/
+
+
+
+/************我的订单*评价列表***********/
+.orderall_tab{width: 100%;height: .69rem; background: #fff; border-bottom: .025rem #ebebeb solid;}
+.orderall_tab a{line-height: .66rem;float: left;margin: 0 .3rem;}
+.orderall_tab .orderall_tab_choiced{border-bottom: .04rem #5e439b solid;line-height:.69rem;color: #5e439b; transition: 1s; }
+
+.orderall_list{margin-top: .2rem;  width: 100%;  float: left;}
+.orderall_list > p{background: #fff;line-height: .7rem;float: left;width: 100%;}
+.orderall_list > p span{float: left;margin-left: .3rem;color:#777;font-size: .2rem;}
+.orderall_list > p label{float: right;margin-right: .3rem;color: #5e439b;font-size: .22rem;}
+/*订单详情dl*/
+.orderall_list > dl{float: left;width: 100%; margin: .2rem 0;}
+.orderall_list > dl dt{width:1.3rem;height: 1.3rem;float: left;margin: 0 .2rem; }
+.orderall_list > dl dt img{width:100%;height:100%; }
+.orderall_list > dl dd{float: left;width: 72%;}
+.orderall_list > dl dd i{float: right;margin-right: .3rem;color: #999;}
+.orderall_list > dl .dd1{height: .6rem;  display: block;  overflow: hidden;}
+.orderall_list > dl .dd2{color: #777;margin-top: .08rem;}
+.orderall_list > dl .dd3{margin-top: .08rem;}
+
+/*订单列表dl*/
+.orderall_list > a > dl{float: left;width: 100%; margin: .2rem 0;}
+.orderall_list >  a >dl dt{width:1.3rem;height: 1.3rem;float: left;margin: 0 .2rem; }
+.orderall_list >  a >dl dt img{width:100%;height:100%; }
+.orderall_list >  a >dl dd{float: left;width: 72%;}
+.orderall_list >  a >dl dd i{float: right;margin-right: .3rem;color: #999;}
+.orderall_list >  a >dl .dd1{height: .6rem;  display: block;  overflow: hidden;}
+.orderall_list >  a >dl .dd2{color: #777;margin-top: .08rem;}
+.orderall_list >  a >dl .dd3{margin-top: .08rem;}
+
+.orderall_list > span{background: #fff;float: left;width: 100%;border-top: .025rem #ebebeb solid; padding: .1rem 0;}
+.orderall_list > span a{float: right;margin-right: .2rem;border: .025rem #ddd solid;width: 1.3rem;height: .42rem;line-height: .42rem;text-align: center;color: #999;border-radius: .06rem;font-size: .22rem;}
+.orderall_list .orderall_list_colored{border: .025rem #5e439b solid; color: #5e439b;}
+.orderall_list > i{background: #fff;line-height: .7rem;float: left;width: 96%;padding-right:4%;text-align: right; font-size: .18rem;}
+.orderall_list > i label{font-size:.22rem; }
+
+.orderall_list > span p label{margin-left:.3rem;float: left;}
+.orderall_list > span p label img{width:.18rem;height: .18rem;margin-right: .1rem;}
+.orderall_list > span p i{float: right;margin-right: .3rem;font-size: .18rem;color: #999;}
+.orderall_list > span textarea{float: left;width: 92%;margin: .2rem 4%;color: #777;font-size: .2rem;min-height: .54rem;display: block;overflow: hidden;}
+/*订单详情*/
+.order_address{width:93%;background: #fff;float: left;padding: .3rem 2% .3rem 5%;}
+.order_address p{margin-left: .3rem;}
+.order_address p span{margin-left: .2rem;}
+.order_address label{font-size: .22rem; margin-top: .16rem;float: left;}
+.order_address label img{width: .19rem;height: .24rem;margin-top: .04rem;float: left;}
+.order_address label span{width: 5.4rem;float: left;margin-left: .1rem;}
+
+.order_logistics{width: 100%;background: #fff;float: left; padding-bottom: .2rem;}
+.order_logistics > p{line-height: .7rem;border-bottom: .025rem #ebebeb solid;padding-left: .3rem;}
+.order_logistics > span{line-height: .56rem;color: #777;}
+.order_logistics > span i{margin-left: .3rem;}
+.order_logistics > span label{margin-left: .2rem;}
+.order_logistics > dl{width: 100%;float: left;margin-top: .1rem;}
+.order_logistics > dl dt{width:92%;margin:0 4%;float: left;font-size: .2rem;}
+.order_logistics > dl dd{width:92%;margin:0 4%;float: left;font-size: .18rem;}
+.order_logistics .order_logistics_colored{color: #5e439b;}
+/************我的订单*评价列表 end***********/
+
+/************购物车1***********/
+.car_box{float: left;}
+.car_box .car_list{ width: 100%;  float: left;}
+/*多选框*/
+.car1_checkbook{display: block; position: absolute;top:.8rem;  z-index: 1;  left: .3rem; width: .3rem;height: .3rem; }
+.car1_checkbook2{display: block; position: absolute;top:.6rem;  z-index: 1;  left: .56rem; width: .3rem;height: .3rem;  }
+.car1_checkbook3{display: block;float: left;margin:.27rem .1rem 0 .3rem; width: .3rem;height: .3rem; }
+/*.car_box .car_list > p{width: .26rem;height: .26rem;border-radius: .13rem;border: .025rem #888 solid; position: absolute;top:.8rem;  z-index: 1;  left: .3rem;}*/
+/*.car_box .car_list .car_list_choiced{background: #5e439b;border: none;}*/
+.car_box .car_list > dl{float: left;  width: 100%;  padding: .2rem 0;  background: #fff; border-bottom: .025rem #ebebeb solid;}
+.car_box .car_list > dl dt{width:1.3rem;height: 1.3rem;float: left;margin: 0 .2rem 0 .8rem; }
+.car_box .car_list > dl dt img{width:100%;height:100%; }
+.car_box .car_list > dl dd{float: left;width: 62%;}
+.car_box .car_list > dl dd i{float: right;margin-right: .3rem;color: #999;}
+.car_box .car_list > dl .dd1{height: .6rem;  display: block;  overflow: hidden;}
+.car_box .car_list > dl .dd2{color: #777;margin-top: .08rem;}
+.car_box .car_list > dl .dd3{margin-top: .08rem;}
+.car_box .car_list > dl .dd3 span{color: #ff1c1c;}
+
+/*加减*/
+.car_list dl .dd3 .car_list_num {
+  border: .025rem #ebebeb solid;
+  border-radius: .03rem;
+  display: block;
+  float: right;
+  margin-top: -.1rem;
+  margin-right: 0;
+}
+
+.car_list dl .dd3 .car_list_num a {
+  display: block;
+  float: left;
+  width: .3rem;
+  text-align: center;
+  padding: .07rem
+}
+
+.car_list dl .dd3 .car_list_num input {
+  display: block;
+  float: left;
+  width: .5rem;
+  text-align: center;
+  line-height: .4rem;
+}
+/*加减 end*/
+/*满赠*/
+.car_box p{line-height: .62rem;background: #fbf9ff;width: 100%;float: left;font-size: .2rem;color: #777;}
+.car_box p i{border: .025rem #5e439b solid;border-radius: .03rem; color: #5e439b;padding: 0 .04rem;margin-left: .3rem;}
+.car_box p a{ margin-right: 2%;float: right;}
+/*满赠 end*/
+/*赠品*/
+.car_box .car_gift{float: left;}
+.car_box .car_gift > dl{float: left;  width: 100%;  padding: .2rem 0;  background: #fff; border-bottom: .025rem #ebebeb solid;}
+.car_box .car_gift p{width: .26rem;height: .26rem;border-radius: .13rem;border: .025rem #888 solid; position: absolute;top:.6rem;  z-index: 1;  left: .5rem;}
+
+.car_box .car_gift > dl dt{width:1rem;height: 1rem;float: left;margin: 0 .2rem 0 .8rem; }
+.car_box .car_gift > dl dt img{width:100%;height:100%; }
+.car_box .car_gift > dl dd{float: left;width: 62%;}
+.car_box .car_gift > dl .dd1{height: .6rem;  display: block;  overflow: hidden;font-size: .2rem;}
+.car_box .car_gift > dl .dd1 i{float: left;border-radius: .03rem; color: #5e439b;padding: 0 .04rem;background: #5e439b;color: #fff;font-size: .18rem;margin-right:.1rem;}
+.car_box .car_gift > dl .dd2{color: #777;margin-top: .08rem;}
+.car_box .car_gift > dl .dd3{margin-top: .08rem;}
+.car_box .car_gift > dl .dd3 span{color: #ff1c1c;}
+.car_box .car_gift > dl .dd3 label{float: right;}
+/*赠品 end*/
+
+.carfooter {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: url(../../wx/images/90balck.png);
+  z-index: 9999;
+}
+.carfooter .car1_left{height: .79rem;float: left;width: 73%; color: #fff;}
+.carfooter .car1_left > p{width: .26rem;height: .26rem;border-radius: .13rem;border: .025rem #888 solid;margin: .26rem;  float: left;}
+
+.carfooter .car1_left i{line-height: .79rem;}
+.carfooter .car1_left dl{float: right;margin-right: .15rem;text-align: right;}
+.carfooter .car1_left dl dt{float: right;width: 100%;font-size: .18rem;}
+.carfooter .car1_left dl dd{float: right;width: 100%;margin-top: .12rem;}
+.carfooter .car1_right{height: .79rem;float: right;width: 27%;background: #5e439b;display: block;color: #fff;text-align: center;line-height: .79rem;}
+/************购物车1 end***********/
+
+/************购物车3已购清单***********/
+.car3_list{ width: 100%;  float: left;}
+.car3_list > dl{float: left;width: 100%; padding: .2rem 0; background: #fff;border-bottom: .025rem #ebebeb solid;}
+.car3_list > dl dt{width:1.3rem;height: 1.3rem;float: left;margin: 0 .2rem; }
+.car3_list > dl dt img{width:100%;height:100%; }
+.car3_list > dl dd{float: left;width: 72%;}
+.car3_list > dl dd i{float: right;margin-right: .3rem;color: #999;}
+.car3_list > dl .dd1{height: .6rem;  display: block;  overflow: hidden;}
+.car3_list > dl .dd2{color: #777;margin-top: .08rem;}
+.car3_list > dl .dd3{margin-top: .08rem;color: #ff1c1c;}
+.car3_list > dl .dd3 label{float: right;color: #999;margin-right: .2rem;}
+
+
+/************购物车2确认订单***********/
+.order_address a{background: url(../../wx/images/rightmore2.png) no-repeat right .4rem;background-size: .12rem .22rem;display: block;  float: left;width: 100%;}
+.car2_list{display: block;width: 100%;float: left;background:#fff url(../../wx/images/rightmore2.png) no-repeat 98% .6rem;background-size: .12rem .22rem;padding: .2rem 0;}
+.car2_list li {width: .95rem;height: .95rem;float: left;border: .025rem #ebebeb solid;margin-left: .2rem;}
+.car2_list li img{width:100%;height:100%;}
+.car2_list p{line-height:1rem; float: right; margin-right: .4rem;font-size: .22rem;}
+
+.car2_deliver{line-height:1rem; display: block;width: 100%;float: left;background:#fff url(../../wx/images/rightmore2.png) no-repeat 98% .4rem;background-size: .12rem .22rem;}
+.car2_deliver span{float: left;margin-left: .3rem;color: #777;}
+.car2_deliver p{float: right; margin-right: .4rem;font-size: .22rem;}
+
+.car2_deliver p select{line-height: 1rem;color: #444;direction: rtl;padding-left: 2rem;font-size: .22rem; height: 1rem;}
+
+.car2_message{width: 100%;background: #fff;float:left;}
+.car2_message input{margin: .26rem 5%;border-radius: .03rem;border:.025rem #ebebeb solid;line-height: .5rem;padding:0 2%; width: 86%;}
+
+.car2_words{width: 100%;background: #fff;float:left;line-height:1rem; display: block;}
+.car2_words > span{margin-left: .3rem;color: #777;float: left;}
+.car2_words > p{float: left; margin-left: .2rem;font-size: .22rem;}
+.car2_words .car2_words_checkbox{float: right;margin: .4rem .2rem 0 0;}
+
+.car2_money{width: 100%;background: #fff;float:left;display: block; padding: .1rem 0;}
+.car2_money p{margin-left: .3rem;margin-top: .1rem;}
+.car2_money p label{color: #ff1c1c;float: right;margin-right: .4rem;}
+
+.carfooter .car1_left .car1_left_words{line-height:.79rem;margin-left:.3rem;}
+
+/************购物车4配送方式选择***********/
+.car4_box{width: 100%;background: #fff;height: .9rem;}
+.car4_box dl{padding:.3rem 0 0 .3rem;color: #777;}
+.car4_box dl dt{float: left;}
+.car4_box dl dt input{    margin-top: .04rem;  width: .23rem;  height: .23rem;}
+.car4_box dl dd{float: left;margin-left: .1rem;}
+.car4_box .car4_box_choiced{background: #5b2d90;border: none;}
+
+.car4_store{width: 100%;background: #fbf9ff;height: .9rem;line-height: .9rem;display: block; color: #5b2d90;}
+.car4_store span{margin-left: .6rem;}
+
+.address_top{width: 100%;background: #fff;height: .7rem;}
+.address_top select{height:.5rem;width: 33%;float: left;margin-top: .1rem;text-align: center;direction: rtl;padding-right: .2rem;}
+.car44_box{width: 100%;background: #fff;height: 1.2rem;padding-left: .3rem;}
+.car44_box .car44_radio{width: .26rem;height: .26rem;float: left;margin-top: .46rem;}
+.car44_box a{width: 85%;float: left;display: block;margin-left: .1rem;padding-top: .3rem;background:url(../../wx/images/rightmore2.png) no-repeat right .5rem;background-size: .12rem .22rem;}
+.car44_box a p{width: 100%;height: .3rem;margin-top: .06rem;display:block;white-space:nowrap;text-overflow:ellipsis; overflow:hidden; }
+
+.car444_box{display: block;float: left;margin: .35rem .5rem .8rem .5rem;}
+.car444_a{margin-top: .8rem;width: 86%;float: left; margin: 0 7%;}
+.car444_a a{margin-top: .2rem;width: 100%;float: left;background: #5b2d90; display: block;line-height:.77rem;color: #fff;text-align: center;font-weight: bold; }
+
+
+
+

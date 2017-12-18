@@ -1,0 +1,82 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Language" content="zh-CN">
+<title>基本资料</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="copyright" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+    <!-- css -->
+    <link href="../wx/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="../wx/css/center.css" rel="stylesheet" type="text/css" />
+    <!-- js -->
+    <script type="text/javascript" src="../wx/js/jquery-2.1.0.js"></script>
+    <script type="text/javascript" src="../wx/js/common.js"></script>
+    <script>
+        window.onload=function(){
+            setRem();
+            $('.filespan').click(function(){
+                $('.filebtn').click();
+            })
+        }
+    </script>
+</head>
+<body>
+
+<!-- header -->
+<section class="white_header">
+    <a href="#" title="" class="hleft headleft header"><img src="../wx/images/leftback.png"> </a>
+    <div class="htitle header">基本资料</div>
+    <a href="#" title="" class="hright headright header"><img src="../wx/images/rightmore.png"></a>
+</section>
+<!-- header end -->
+
+<section class="center_infobox">
+    <dl>
+        <dt>头像</dt>
+        <dd class="center_infobox_pic">
+            <span class="filespan"><img src="../wx/images/product1.png"></span>
+            <input type="file" class="filebtn" />
+        </dd>
+    </dl>
+    <dl>
+        <dt>用户名</dt>
+        <!--center_infobox_nomore为没有右边箭头更多-->
+        <dd class="center_infobox_nomore">123</dd>
+    </dl>
+    <dl>
+        <dt>昵称</dt>
+        <dd><input type="text" value="" placeholder="头发满天飞" class="text center_infobox_text"></dd>
+    </dl>
+    <dl>
+        <dt>性别</dt>
+        <dd>
+            <select class="center_infobox_select">
+                <option>保密</option>
+                <option>男</option>
+                <option>女</option>
+            </select>
+        </dd>
+    </dl>
+    <dl>
+        <dt>出生年月</dt>
+        <dd><input type="date" value="" class="center_infobox_text" style="margin-right: -.5rem;"></dd>
+    </dl>
+
+    <dl>
+        <dt>修改密码</dt>
+        <dd><a href="#" title="" style="display: block;height: .8rem;width: 3rem;">&nbsp;</a> </dd>
+    </dl>
+
+
+
+</section>
+
+
+</body>
+</html>

@@ -1,0 +1,417 @@
+@charset "UTF-8";
+
+
+/* CSS Document */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  /*10 ÷ 16 × 100% = 62.5%*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #444;
+  font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  text-align: left;
+  position: relative;
+  line-height: 0.30rem;
+  font-size: 0.24rem;
+}
+
+img {
+  border: 0;
+  position: relative;
+  max-width: 100%;
+}
+
+.clear {
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+div, ul, dl, dd, dt, li, td, th, tr, table, p, span, h1, h2, h3, h4, h5, h6, form {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+  word-wrap: break-word;
+  position: relative;
+  border: none;
+  font-weight: 400;
+}
+
+i{font-style:normal;}
+
+a {
+  color: #444;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+
+header, footer, nav, section, article, menu, aside {
+  display: block;
+  position: relative;
+}
+
+textarea {
+  resize: none;
+  font-family: "微软雅黑";
+  font-size: 0.25rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  text-align: left;
+}
+
+input {
+  font-family: "微软雅黑";
+  font-size: 0.25rem;
+  /*-webkit-appearance: none;*/
+  background: none;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input.sub {
+  cursor: pointer;
+  background: none;
+  border: none;
+    appearance:none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari 和 Chrome */
+}
+
+input.text {
+  background: none;
+  border: none;
+}
+
+select, textarea{border: none;-webkit-appearance: none;}
+
+a, button, input {
+  -webkit-tap-highlight-color: transparent;
+  /*-webkit-appearance: none;*/
+  /* For some Androids */
+}
+.gray {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+
+  filter: grayscale(100%);
+
+  filter: gray;
+  opacity:0.5;
+}
+
+.bgwhite{ background: #fff;}
+.bgpurple{ background: #5e439b; color: #fff;}
+
+.wrap100{ width: 100%;display: block;overflow: hidden;}
+
+.mt10{ margin-top: .1rem;}
+.mt20{ margin-top: .2rem;}
+.mtf5{margin-top: -.05rem;}
+
+.fs26{font-size: .26rem;}
+.fs18{font-size: .18rem;}
+
+.lt{text-decoration: line-through;}
+
+.colpurple{ color:#5e439b;}
+.colfff{color: #fff;}
+.colred{color: #ff1c1c;}
+
+
+.col99918 , s{color: #999;text-decoration: line-through; font-size: .18rem;}
+
+.fl{float: left;}
+.fr{float: right;}
+
+
+
+/* 头部白底通用 */
+.white_header{ width: 100%;height: .78rem;line-height: .78rem; border-bottom: .025rem #ddd solid; background: #f9f9f9;box-shadow:0 0 1px 1px #ebebeb;position: fixed;top: 0;left: 0;z-index: 999;}
+
+.myhe{
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 0.2rem;
+  z-index: 100;
+  height: 0.5rem;
+  width: 10%;
+}
+.myhe a{
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: auto;
+}
+.headleft{
+  left: 0px;
+  margin-left: .2rem;
+}
+.myhe a img{
+  width: 100%;
+  height:100%;
+}
+.headright{
+  right: 0px;
+  margin-right: .2rem;
+}
+
+.header{position: absolute;  display: block;  overflow: hidden; z-index: 100;  height: 0.78rem;  width: 10%;}
+.hleft{top:.08rem;}
+.hleft img{width: .18rem;height: .3rem;}
+.hright{color:#777;margin-right: -.1rem; }
+.hright img{width: .28rem;height: .06rem;}
+.htitle{ left: 0px;  font-size: 0.32rem;  width: 70%;  margin: 0 15%; text-align: center;}
+
+/*搜索框*/
+.hsearch {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  top: 0.16rem;
+  z-index: 99;
+  height: 0.48rem;
+  border-radius: 0.05rem;
+  background: #ebebeb;
+  color: #999999;
+  font-size: 0.24rem;
+  width: 70%;
+  margin: 0 15%;
+}
+.hsearch form {
+  height: 100%;
+}
+.hsearch input {
+  float: right;
+  height: 100%;
+  border: none;
+  width: 72%;
+  padding-left: 0.48rem;
+  background: url(../images/hsearch.png) no-repeat 0.09rem;
+  background-size: 0.3rem;
+
+}
+.hsearch input:focus {  width: 90%;  -webkit-transition: 1s;}
+input::-webkit-input-placeholder {  color:#c1c1c1;}
+/* 头部白底通用 end */
+
+
+/* 右上角更多 */
+.rightmore{
+  float:right;
+  margin-right: .1rem;
+z-index: 999; 
+position: absolute;
+right: 0rem;
+top: 0.6rem;
+display: none;
+}
+
+.rightmore .rightmore_jiao{ width: 0;
+  height: 0;
+  border-left: .2rem solid transparent;
+  border-right: .2rem solid transparent;
+  border-bottom: .2rem solid #44484b; margin-left: 1.56rem;}
+.rightmore .rightmore_box{width: 2.17rem;height: 2.8rem;background: #44484b; float: left;border-radius: .1rem;}
+.rightmore .rightmore_box a{ width: 100%;height: .7rem;color: #dddddd;float: left;line-height: .74rem;}
+.rightmore .rightmore_box .rightmore_box_more1{    background: url(../images/more1.png) no-repeat .2rem;  background-size: .38rem .38rem;  padding-left: .7rem;}
+.rightmore .rightmore_box .rightmore_box_more2{    background: url(../images/more2.png) no-repeat .2rem;  background-size: .38rem .38rem;  padding-left: .7rem;}
+.rightmore .rightmore_box .rightmore_box_more3{    background: url(../images/more3.png) no-repeat .2rem;  background-size: .38rem .38rem;  padding-left: .7rem;}
+.rightmore .rightmore_box .rightmore_box_more4{    background: url(../images/more4.png) no-repeat .2rem;  background-size: .38rem .38rem;  padding-left: .7rem;}
+/* 右上角更多 end */
+
+
+/* 底部标签栏 */
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: white;
+  border-top: #dddddd 1px solid;
+  z-index: 9999;
+}
+
+.footer nav {
+  overflow: hidden;
+  width: 100%;
+}
+
+.footer nav a {
+  float: left;
+  width: 25%;
+  height: 0.98rem;
+  text-align: center;
+}
+
+.footer nav a span {
+  display: block;
+  margin: auto;
+  margin-top: 0.13rem;
+  width: 0.40rem;
+  height: 0.40rem;
+  text-align: center;
+}
+
+.footer nav a span img:nth-of-type(1) {
+  display: none;
+}
+
+.footer nav a span img.active_img {
+  display: block;
+}
+
+.footer nav a span img.disable_img {
+  display: none;
+}
+
+.footer nav a label {
+  font-size: 0.2rem;
+  color: #5d5f6a;
+  line-height: 0.4rem;
+}
+
+.footer nav a label.active_label {
+  color: #5e439b;
+}
+
+.footer_size {
+  width: 100%;
+  height: 1rem;
+  float: left;
+}
+
+.top_size {
+  width: 100%;
+  height:.78rem;
+  float: left;
+}
+
+/*弹窗*/
+
+
+.goodcover {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 6666rem;
+  background-color: black;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: 0.50;
+  filter: alpha(opacity=80);
+}
+
+
+.winout{width: 5.4rem; margin: auto;min-height: 2.14rem;background:#fff; border-radius: .15rem; text-align: center;    display: block;  overflow: hidden;
+  position: absolute;  display: none;  z-index: 1002;transform: scale(1);top: 3rem;  left: 8%;}
+.winout a{color:#777;}
+.winout h3{ width: 100%; line-height: 1rem; font-size: .3rem;}
+.winout span{float:left;padding: 0 4%;text-align: center;width: 92%;}
+.winout label{height: .7rem;    display: block;  width: 100%;  float: left;border-top: .025rem #ebebeb solid;margin-top: .6rem;line-height: .7rem;font-size: .3rem;color: #777;}
+.winout ul{float: left;  width: 100%;border-top: .025rem #ebebeb solid;font-size: .3rem; color: #777;margin-top: .6rem;}
+.winout ul li{width: 49%;  float: left;line-height: .7rem;border-right: .025rem #ebebeb solid;}
+.winout ul li:nth-child(2n){border-right:none;}
+
+
+/**********************************************************燕窝馆**********************************************************/
+/* 燕窝馆头部通用 */
+.color_header {
+    width: 100%;
+    height: .78rem;
+    line-height: .78rem;
+    background: #5e439b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.color_header .myhe{
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 0.2rem;
+  z-index: 100;
+  height: 0.5rem;
+  width: 10%;
+}
+.color_header .myhe a{
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: auto;
+}
+.color_header .headleft{
+  left: 0px;
+  margin-left: .2rem;
+}
+.color_header .myhe a img{
+  width: 100%;
+  height:100%;
+}
+.color_header .headright{
+  right: 0px;
+  margin-right: .2rem;
+}
+
+.color_header .header{position: absolute;  display: block;  overflow: hidden; z-index: 100;  height: 0.78rem;  width: 10%;}
+.color_header .hleft{top:.08rem;}
+.color_header .hleft img{width: .18rem;height: .3rem;}
+.color_header .hright{color:#777;margin-right: -.1rem; }
+.color_header .hright img{width: .28rem;height: .06rem;}
+.color_header .htitle{ left: 0px;  font-size: 0.32rem;  width: 70%;  margin: 0 15%; text-align: center;color: #fff;}
+
+
+/* 燕窝馆头部通用 end */
+.cubilose_type{float: left;width: 100%;margin-top: .2rem;}
+.cubilose_type .type1{width:23%; float: left;margin-right: 3%;}
+.cubilose_type .type1 img{width: 100%;height: 100%;}
+.cubilose_type .type1:last-child{margin-right: -5%;}
+
+.cubilose_adv{width: 100%;float: left;}
+.cubilose_adv img{width: 100%;height: 100%;}
+
+.recommend .recommend_box dd:last-child{height: .42rem;}
+
+.cubilose_cards{float: left;width: 100%;margin-top: .2rem;}
+.cubilose_cards span a{margin-top: .1rem;float: left;}
+.cubilose_cards span a dl{margin: 0 3%; width:94%;border-radius: .08rem;background: #fff; float: left; color: #666;font-size: .2rem;}
+.cubilose_cards span a dl dt{float: left;margin-left:5%;width: 50%;}
+.cubilose_cards span a dl dt img{width: 2.5rem; height: 2.5rem;}
+.cubilose_cards span a dl dd{float: left;width: 45%;line-height: .32rem;}
+.cubilose_cards span a dl dd h1{margin: .42rem 0 .1rem 0;}
+.cubilose_cards span a dl dd i{color: #7661ac;}
+.cubilose_cards span a dl dd i span{font-size: .3rem;}
+
+/********************************************************燕窝馆 end********************************************************/

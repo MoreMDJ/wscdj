@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/java/com/zxsm/wsc/common/UtilsTools/DateUtils.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/resources/acp_sdk_prod_cer.properties=UTF-8
+encoding//src/main/resources/acp_sdk_test_cer_local.properties=UTF-8
+encoding//src/main/resources/acp_sdk_test_cer_server.properties=UTF-8
+encoding//src/main/resources/application-loc.properties=UTF-8
+encoding//src/main/resources/application-pro.properties=UTF-8
+encoding//src/main/resources/application-tes.properties=UTF-8
+encoding//src/test/java=UTF-8
+encoding/<project>=UTF-8
