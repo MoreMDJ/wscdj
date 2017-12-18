@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/******************** 我的健康 ***********************/
+
+.h_search{margin:.2rem .4rem 0 .4rem;background: #FFF; border-radius: .06rem;padding: .1rem 0; display: block; overflow: hidden;}
+
+.h_search input{width: 70%;float: right;height:100%;padding-left: .6rem;background: url(../images/health/hsearch.png) no-repeat;background-size:.3rem ;}
+.h_search input:focus{width: 96%;-webkit-transition: 1s;}
+.h_search .h_searchbox{}
+
+.h_i_list{margin:.2rem .2rem 0 .2rem;padding: .6rem 0 1rem 0;background: #fff;border-radius: .06rem;font-size: .24rem;}
+
+
+
+.h_i_list span{display: block;border-left: .05rem solid #5e439b;height: .36rem;font-size: .3rem; padding-left: .15rem;line-height: .36rem;float: left;}
+.h_i_list a{width: .8rem;height: .8rem; border-radius: 0.5rem; display: block;float: left;line-height: .8rem;text-align: center;font-size: .22rem;color: #fff;} 
+
+.h_i_list .add{background: #e65c08;position: absolute;top: .4rem;left: 60%;}
+.h_i_list .look{background: #5e439b;position: absolute;top: .4rem;left: 80%;}
+
+
+/******************** 新增体重 ***********************/
+.h_a_info{padding:0 .2rem;background: #fff;}
+.h_a_info dl{display: block;overflow: hidden;padding: .24rem 0;border-bottom: .025rem solid #ebebeb;}
+.h_a_info dl:last-child{border-bottom: none;}
+.h_a_info dl dt{width: 26%;float: left;font-size: .26rem;line-height: 0.38rem;}
+.h_a_info dl dd{width: 74%;float: right;text-align: right;color: #999;font-size: .2rem;}
+.h_a_info dl dd input{text-align: right;padding-right: .1rem;font-size: .31rem;}
+.h_a_info dl dd input::-webkit-input-placeholder {color: #333;}
+
+.h_a_info2{padding:0 .2rem;background: #fff;}
+.h_a_info2 dl{display: block;overflow: hidden;padding: .24rem 0;border-bottom: .025rem solid #ebebeb;}
+.h_a_info2 dl:last-child{border-bottom: none;}
+.h_a_info2 dl dt{width: 26%;float: left;font-size: .26rem;line-height: 0.38rem;}
+.h_a_info2 dl dd{width: 74%;float: right;text-align: right;color: #999;}
+.h_a_info2 dl dd input{text-align: right;padding-right: .1rem;font-size: .33rem;width: 100%;font-size: .24rem;}
+.h_a_btn{ width: 100%; background: #5e439b;line-height: .8rem;color: #fff;font-size: .24rem;position: fixed;bottom: 0;}
+
+/******************** 查看 ***********************/
+.h_l_time{padding: .2rem;background: #fff;}
+.h_l_time .h_l_timebg{background: #f4f4f4;height: .54rem;width: 2rem;font-size: .2rem;text-align: center;border-radius: .06rem;margin-right: .1rem;}
+.h_l_time .h_l_time_btn{background: #5e439b;height: .54rem;width: 1rem; color: #fff;border-radius: .06rem;float: right;}
+
+.h_l_list{padding: .2rem;background: #fff;}
+.h_l_list dl dt{padding-bottom: .2rem;border-bottom: .025rem solid #ebebeb;color: #999;}
+.h_l_list dl dd {padding:.2rem 0;}
+.h_l_list dl dd ul li{float: left;width: 33%;text-align: right;}
+.h_l_list dl dd ul li:first-child{text-align: left;}
+
+.h_l_all{display: block;overflow: hidden;}
+.h_l_tab{display: block;overflow: hidden;}
+.h_l_tab ul li{width: 33%;float: left;text-align: center;padding: .24rem 0;background: #fff;}
+.h_l_tab ul li a{font-size: .28rem; color: #5e439b;}
+
+/* tab */
+.my-pagination .swiper-pagination-bullet { text-align: center; border-radius: 0; opacity: 1; }
+.my-pagination ul { display: -webkit-box; }
+.my-pagination li { display: block; background: #fff; overflow: hidden; box-flex: 1; -moz-box-flex: 1; -webkit-box-flex: 1; height: 40px; line-height: 40px; position: relative; font-size: 15px; }
+.my-pagination li:after { position: absolute; top: auto; right: auto; bottom: 0; left: 0; z-index: 1; display: block; width: 100%; height: 1px; content: ''; background-color: #dcdcdc; -webkit-transform-origin: 50% 100%; transform-origin: 50% 100%; -webkit-transform: scaleY(.5) }
+.my-pagination .swiper-pagination-bullet-active { color: #5e439b; }
+.my-pagination .swiper-pagination-bullet-active:after { opacity: 1; background-color: #5e439b; height: 4px; }
+
+/******************** 搜索列表 ***********************/
+.h_searchlist a{display:block;line-height: .76rem;background: #fff;padding: 0 .2rem;font-size: .26rem;margin-top: .2rem;}
+.h_searchlist a span{margin-right: .2rem;float: left;}
+.h_searchlist i{background: url(../images/health/h_add.png) no-repeat;width: .28rem;height: .28rem;background-size: .28rem .28rem;top: .24rem;position: absolute;
+right: .2rem;}
+
+.h_searchlist{padding: 0 .2rem;}
+.h_searchlist dl{padding: .24rem 0;display: block;overflow: hidden;border-bottom: 0.025rem solid #EBEBEB;font-size: .26rem;}
+.h_searchlist dl dt{float: left;}
+.h_searchlist dl dd{float: right;color: #666;}
+.h_searchlist dl:last-child{border-bottom: none;}
+
+
+
+.h_register{position: fixed;bottom: 0;background: #5e439b;width: 100%;color: #fff;display: block;height: .8rem;line-height: .7rem;text-align: center; }

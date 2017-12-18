@@ -1,0 +1,111 @@
+.doctor_type{width: 100%;float: left;}
+.doctor_type dl{width: 25%;float: left;margin-top: .4rem;}
+.doctor_type dl dt{text-align: center;display: block;}
+.doctor_type dl dt img{width: .8rem;height: .8rem;}
+.doctor_type dl dd{text-align: center;margin-top: .16rem;}
+
+
+.doctor_list {width: 100%;float: left;}
+.doctor_list .doctor_list1{padding: .16rem .3rem 0 .3rem;margin: .2rem 0;background: #fff;display: block;overflow: hidden;}
+.doctor_list .doctor_list1 .doctor_list1_l{float: left;width: 25%;}
+.doctor_list .doctor_list1 .doctor_list1_l img{width:1.2rem;height:1.2rem;border-radius: .6rem;}
+.doctor_list .doctor_list1 .doctor_list1_l .on_line{display: block;width: .7rem;height: .3rem;text-align:center;border-radius: .1rem;background: #fe8919;position: absolute;bottom:0;left: .6rem;color: #fff;}
+.doctor_list .doctor_list1 .doctor_list1_l .off_line{display: block;width: .7rem;height: .3rem;text-align:center;border-radius: .1rem;background: #ddd;position: absolute;bottom:0;left: .6rem;color: #999;}
+
+.doctor_list .doctor_list1 .doctor_list1_r{float: left;width:75%;}
+.doctor_list .doctor_list1 .doctor_list1_r dl{line-height: .4rem;}
+.doctor_list .doctor_list1 .doctor_list1_r dl dt{font-size: .3rem;color: #333;}
+.doctor_list .doctor_list1 .doctor_list1_r dl dt span{font-size: .24rem;color: #666;margin-left: .2rem;}
+.doctor_list .doctor_list1 .doctor_list1_r dl dd{display:block;white-space:nowrap;text-overflow:ellipsis; overflow:hidden;color: #aaa; }
+.doctor_list .doctor_list1 .doctor_list1_r dl dd i{color: #777;}
+
+.doctor_list .doctor_list1 .doctor_list1_r dl dd:last-child{border-top: .02rem solid #ddd;padding: .2rem 0;}
+
+.doctor_list .doctor_list1 .doctor_list1_r .doctor_list1_r_num{font-size:.18rem;float: left;}
+.doctor_list .doctor_list1 .doctor_list1_r .doctor_list1_r_numnow{font-size:.18rem;padding:0 .06rem; background: #39d167;float: right;color: #fff;border-radius: .08rem;}
+
+
+.h20 {
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.h90 {
+    height: .9rem;
+    line-height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+
+.d_header{width: 100%; height: 2rem; background: url(../images/doctor/d_bg.png) no-repeat;background-size:100% 2rem;text-align: center;display: block;}
+.d_header .photo{position: absolute;bottom:-.8rem;display: inline-block; margin-left: -.6rem;}
+.d_header .photo img{width:1.2rem;height:1.2rem;border-radius: .6rem;}
+.d_header .photo .on_line{display: block;width: .7rem;height: .3rem;text-align:center;border-radius: .1rem;background: #fe8919;position: absolute;bottom:0;left: .6rem;color: #fff;}
+.d_header .photo .off_line{display: block;width: .7rem;height: .3rem;text-align:center;border-radius: .1rem;background: #ddd;position: absolute;bottom:0;left: .6rem;color: #999;}
+.d_header .header{top:.3rem;}
+
+.d_job{width: 100%;text-align: center;border-bottom: .02rem solid #ddd;}
+.d_job p span{font-size: .3rem;font-weight:600;}
+.d_job p{margin: .16rem 0;}
+
+.d_num{text-align: center;height:.48rem;line-height:.48rem;display: block;border-bottom: .02rem solid #ddd;font-size:.2rem ;}
+.d_num i{margin: 0 .1rem;color: #FF0000;height: .49rem;}
+.d_num .d_num_left{width: 39%;float: left;border-right: .02rem solid #ddd;}
+.d_num .d_num_right{width: 60%;float: right;}
+
+.h2bg{height: .2rem;background:#f5f5f5;clear: both;width: 100%;    overflow: hidden;    padding: 0;    margin: 0;}
+
+.d_specialty{float:left;width: 90%;padding: .2rem 5%;}
+.d_specialty p{font-size: .28rem;font-weight: 600;color: #333;padding-left:.38rem;}
+.d_specialty span{display:block;margin-top: .2rem;overflow: hidden;/*
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;*/}
+
+.d_specialty .p1{background: url(../images/doctor/p1.png) no-repeat;background-size:.3rem .3rem ;}
+.d_specialty .p2{background: url(../images/doctor/p2.png) no-repeat;background-size:.3rem .3rem ;}
+.d_specialty .p3{background: url(../images/doctor/p3.png) no-repeat;background-size:.3rem .3rem ;}
+.d_specialty .p4{background: url(../images/doctor/p4.png) no-repeat;background-size:.3rem .3rem ;}
+.d_specialty .p5{background: url(../images/doctor/p5.png) no-repeat;background-size:.3rem .3rem ;}
+
+.d_specialty dl{margin-top: .2rem;}
+.d_specialty dl dt{text-align: center;}
+.d_specialty dl dt img{width: 4.8rem;}
+.d_specialty dl dd{text-align: center;}
+
+
+
+
+.d_footer{width: 100%;height: .8rem;background: #5d439c;position: fixed;bottom: 0;line-height: .8rem;text-align: center;color: #fff;display:block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

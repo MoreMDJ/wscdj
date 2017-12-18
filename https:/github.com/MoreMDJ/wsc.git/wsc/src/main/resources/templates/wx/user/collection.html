@@ -1,0 +1,80 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Language" content="zh-CN">
+<title>我的收藏</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="copyright" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+    <!-- css -->
+    <link href="../wx/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="../wx/css/center.css" rel="stylesheet" type="text/css" />
+    <!-- js -->
+    <script type="text/javascript" src="../wx/js/jquery-2.1.0.js"></script>
+    <script type="text/javascript" src="../wx/js/common.js"></script>
+</head>
+<script>
+    setRem();
+    window.onload=function(){
+        left_del('left_del_box');
+    }
+</script>
+
+<body>
+
+<!-- header -->
+<section class="white_header">
+    <a href="#" title="" class="hleft headleft header"><img src="../wx/images/leftback.png"> </a>
+    <div class="htitle header">我的收藏</div>
+    <a href="#" title="" class="hright headright header"><img src="../wx/images/rightmore.png"></a>
+</section>
+<!-- header end -->
+
+<section class="collection_box">
+    <ul class="left_del_box" style="width:100%;overflow: hidden;">
+    <li>
+        <a href="javascript:;">
+            <img src="../wx/images/product1.png" alt="" class="fl" />
+            <section class="sec1 fl">
+                <p class="p1">999感冒灵胶囊 0.5g*12粒 三九牌感冒药 头痛发热鼻塞流涕咽痛 </p>
+                <p class="p2">
+                    <span class="colred">￥6.88</span>
+                    <label class="col99918">￥8.00</label>
+                </p>
+            </section>
+        </a>
+        <menu>删除</menu>
+    </li>
+    <li>
+        <a href="javascript:;">
+            <img src="../wx/images/product1.png" alt="" class="fl" />
+            <section class="sec1 fl">
+                <p class="p1">999感冒灵胶囊 0.5g*12粒 三九牌感冒药 头痛发热鼻塞流涕咽痛 </p>
+                <p class="p2">
+                    <span class="colred">￥6.88</span>
+                    <label class="col99918">￥8.00</label>
+                </p>
+            </section>
+        </a>
+        <menu>删除</menu>
+    </li>
+
+</ul>
+    <script>
+        $(function(){
+            var oWidth=$(document).width();
+
+            var iw=$('.left_del_box menu:eq(0)').outerWidth();
+            $('.left_del_box a').css('width',oWidth);
+            $('.left_del_box li').css('width',oWidth+iw+1);
+        })
+    </script>
+</section>
+
+</body>
+</html>
